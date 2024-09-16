@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: gilroy;
+    font-size: 10px;
+
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: linear-gradient(to top left, #3ed8ff, #a8f5ff); */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVqurVhTZZb543qXB3aocsDyjxa_rudQ3cqQ&s");
+}
+.inner-box{
+    width: 170px;
+margin-left: 80px;
+
+background-color: rgb(222, 238, 243);
+background: transparent(5);
+}
+input{
+    
+    height: 10px;
+}
+.signup-body placeholder{
+   font-weight: 5px;
+}
+h2{
+    text-align: center;
+    color: brown;
+    text-transform: uppercase;
+}
